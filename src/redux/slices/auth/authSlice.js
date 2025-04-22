@@ -41,5 +41,10 @@ export const loginUser = (email, password) => async (dispatch) => {
     }
 }
 
+export const logoutUser = () => (dispatch) => {
+    authService.logout();
+    dispatch(logout)
+}
+
 export const { loginStart, loginSuccess, loginFailure, logout} = authSlice.actions
 export default authSlice.reducer
