@@ -1,0 +1,23 @@
+npx create-expo-app my-app --template blank
+
+Package
+
+npm install @react-navigation/native
+react-native-vector-icons
+react-native-safe-area-context
+react-native-gesture-handler
+react-native-screens
+react-native-reanimated
+
+
+npm install @reduxjs/toolkit react-redux
+
+
+npm install react-native-dotenv
+npm install axios
+
+
+npm install react-native-paper
+npm install @react-navigation/stack
+
+npm install --save babel-plugin-module-resolver react-native-dotenv
